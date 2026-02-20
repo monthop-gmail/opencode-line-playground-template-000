@@ -1,33 +1,37 @@
-# OpenCode Playground Template
+# OpenCode LINE Playground Template
 
-Project template สำหรับน้องๆ
+Template สำหรับ workshop พัฒนา LINE Bot ด้วย OpenCode
+
+## 🎯 Best Practice
+
+### 1 Repo → 1 LINE Group
+- สร้าง 1 GitHub repo ต่อ 1 LINE Group
+- เชิญ member ทุกคนเข้า group
+- เชิญ LINE OA `@onboard-opencode` (https://line.me/ti/p/@525vvsgv) เข้า group ด้วย
+
+### Workflow
+```
+1. สร้าง issue ใน repo
+2. สร้าง branch จาก issue
+3. เขียน code ใน branch
+4. สร้าง PR (อย่าลืม link issue เช่น closes #123)
+5. รอ CI pass + approval
+6. Merge → Auto deploy ไป Cloudflare Pages
+```
 
 ## 🚀 Quick Start
 
 ```bash
-# Clone repo
-git clone https://github.com/monthop-gmail/opencode-playground-template-000.git
-cd opencode-playground-template-000
-
-# เพิ่ม code ของคุณ
-
-# Commit และ push
-git add .
-git commit -m "Add my project"
-git push origin main
+git clone https://github.com/monthop-gmail/opencode-line-playground-template-000.git
+cd opencode-line-playground-template-000
+# เขียน code ของคุณ
+git add . && git commit -m "Add my bot" && git push origin main
 ```
 
 ## 🔄 CI/CD
-*- **CI**: ต้อง link issue ใน PR (เช่น `closes #123`)
-- **Deploy**: Auto deploy ไป Cloudflare Pages หลัง push main
-
-## 📝 วิธีสร้าง Project ใหม่
-
-1. สร้าง Cloudflare Pages project ใหม่
-2. ขอสร้าง GitHub repo โดยใช้ template นี้
-3. Clone → เขียน code → Push → Auto deploy!
+- **CI**: ต้อง link issue ใน PR
+- **Deploy**: Auto deploy หลัง push main
 
 ## 📞 ติดต่อ
-
-สอบถามได้ที่: https://github.com/monthop-gmail/opencode-line/issues
+https://github.com/monthop-gmail/opencode-line/issues
 
