@@ -1,6 +1,4 @@
-# OpenCode LINE Playground Template
-
-Template สำหรับ workshop พัฒนา LINE Bot ด้วย OpenCode
+# Template ระบบ opencode-line-playground สำหรับ วิจัย/พัฒนา ผ่าน OpenCode LINE Bot
 
 ## 🎯 Best Practice
 
