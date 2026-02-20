@@ -3,7 +3,7 @@
 ## 🎯 Best Practice
 
 ### 1 Repo → 1 LINE Group
-- สร้าง 1 GitHub repo ต่อ 1 LINE Group
+- สร้าง 1 LINE Group
 - เชิญ member ทุกคนเข้า group
 - เชิญ LINE OA `@onboard-opencode` (https://line.me/ti/p/@525vvsgv) เข้า group ด้วย
 
