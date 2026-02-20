@@ -10,20 +10,20 @@
 ## 📋 Prompt สำหรับสร้าง Project ใหม่
 
 ```
-ช่วยสร้าง repo ใหม่โดยใช้ template จาก https://github.com/monthop-gmail/opencode-line-playground-template-000 เป็นแนวทาง
+ช่วยสร้าง repo ใหม่จาก GitHub Template โดยใช้คำสั่ง:
+gh repo create monthop-gmail/opencode-line-playground-004 --template monthop-gmail/opencode-line-playground-template-000 --public --clone
 
-โดยมีขั้นตอนดังนี้:
-1. สร้าง GitHub repo ชื่อ opencode-line-playground-004
-2. Copy workflows ทั้งหมด (.github/workflows/) จาก template
-3. แก้ไข projectName ใน deploy.yml เป็นชื่อ repo ใหม่
-4. ตั้งค่า branch protection ให้ main branch:
+จากนั้น:
+1. แก้ไข projectName ใน .github/workflows/deploy.yml เป็นชื่อ repo ใหม่
+2. ตั้งค่า branch protection ให้ main branch:
    - ต้องมี approval 1 คน
    - ต้อง CI pass ก่อน merge
-5. สร้าง README.md แบบย่อ:
+3. สร้าง README.md แบบย่อ:
    - ชื่อ project
    - Quick Start (clone, commit, push)
    - CI/CD (link issue, auto deploy)
    - ลิงก์ติดต่อ issue
+4. Commit และ push ทั้งหมด
 ```
 
 ## 📋 วิธีใช้งาน
