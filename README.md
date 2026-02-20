@@ -1,13 +1,13 @@
-# OpenCode Playground Workshop
+# OpenCode Playground Template
 
-Workshop project template สำหรับน้องๆ
+Project template สำหรับน้องๆ
 
 ## 🚀 Quick Start
 
 ```bash
 # Clone repo
-git clone https://github.com/monthop-gmail/opencode-playground-workshop-000.git
-cd opencode-playground-workshop-000
+git clone https://github.com/monthop-gmail/opencode-playground-template-000.git
+cd opencode-playground-template-000
 
 # เพิ่ม code ของคุณ
 
@@ -22,7 +22,8 @@ git push origin main
 - **Deploy**: Auto deploy ไป Cloudflare Pages หลัง push main
 
 ## 📝 วิธีสร้าง Project ใหม่
-1. สร้าง Cloudflare Pages project ใหม่
+
+1. สร้าง Cloudflare Pages project ใหม่
 2. ขอสร้าง GitHub repo โดยใช้ template นี้
 3. Clone → เขียน code → Push → Auto deploy!
 
