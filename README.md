@@ -7,20 +7,29 @@
 - เชิญ member ทุกคนเข้า group
 - เชิญ LINE OA `@onboard-opencode` (https://line.me/ti/p/@525vvsgv) เข้า group ด้วย
 
+## 📋 Prompt สำหรับสร้าง Project ใหม่
+
+```
+ช่วยสร้าง repo ใหม่โดยใช้ template จาก https://github.com/monthop-gmail/opencode-line-playground-template-000 เป็นแนวทาง
+
+โดยมีขั้นตอนดังนี้:
+1. สร้าง GitHub repo ชื่อ opencode-line-playground-004
+2. Copy workflows ทั้งหมด (.github/workflows/) จาก template
+3. แก้ไข projectName ใน deploy.yml เป็นชื่อ repo ใหม่
+4. ตั้งค่า branch protection ให้ main branch:
+   - ต้องมี approval 1 คน
+   - ต้อง CI pass ก่อน merge
+5. สร้าง README.md แบบย่อ:
+   - ชื่อ project
+   - Quick Start (clone, commit, push)
+   - CI/CD (link issue, auto deploy)
+   - ลิงก์ติดต่อ issue
+```
+
 ## 📋 วิธีใช้งาน
 
 ### 1. สร้าง Project ใหม่
-ส่ง prompt นี้ให้ OpenCode LINE Bot:
-
-```
-ช่วยสร้าง repo ใหม่โดยใช้ template จาก 
-monthop-gmail/opencode-line-playground-template-000 เป็นแนวทาง
-
-1. สร้าง GitHub repo ชื่อ opencode-line-playground-001
-2. Copy workflows จาก template
-3. ตั้งค่า branch protection
-4. Deploy ไป Cloudflare Pages
-```
+ส่ง prompt ข้างบนให้ OpenCode LINE Bot
 
 ### 2. ขั้นตอนหลังได้ Repo
 ```
